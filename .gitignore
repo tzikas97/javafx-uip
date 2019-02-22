@@ -25,10 +25,12 @@ hs_err_pid*
 # optional assignments
 /week_*/assignment_optional/output/*/nbproject/private/
 /week_*/assignment_optional/output/*/build/
+/week_*/assignment_optional/output/*/dist/
 
 # required assignments
 /week_*/assignment_required/output/*/nbproject/private/
 /week_*/assignment_required/output/*/build/
+/week_*/assignment_required/output/*/dist/
 
 # re-include input folders
 !/week_*/assignment_optional/input/*
