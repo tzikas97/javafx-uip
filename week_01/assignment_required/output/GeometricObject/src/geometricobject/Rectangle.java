@@ -25,6 +25,7 @@ public class Rectangle extends GeometricObject{
     private double height;
 
     /**
+     * 
      * Constructor w/o arguments
      */
     public Rectangle() {
