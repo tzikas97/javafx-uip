@@ -20,9 +20,55 @@ package bicycles;
  *
  * @author tzikas97
  */
-public class MountainBikes extends Bicycles{
+public class MountainBikes extends Bicycles {
+
     private int seatHeight;
 
+    /**
+     * 
+     * Constructor w/o arguments
+     */
+    public MountainBikes() {
+        super();
+        seatHeight = 0;
+    }
+
+    /**
+     *
+     * Constructor w/ arguments
+     *
+     * @param newSeatHeight The object's seat height
+     */
+    public MountainBikes(int newSeatHeight) {
+        super();
+        seatHeight = newSeatHeight;
+    }
+
+    /**
+     *
+     * Constructor w/ arguments
+     *
+     * @param newSpeed The object's speed
+     * @param newGear The object's gear
+     * @param newSeatHeight The object's seat height
+     */
+    public MountainBikes(int newSpeed, int newGear, int newSeatHeight) {
+        super(newSpeed, newGear);
+        seatHeight = newSeatHeight;
+    }
+
+    /**
+     *
+     * @return The object's seat height
+     */
+    public int getSeatHeight() {
+        return seatHeight;
+    }
+
+    /**
+     *
+     * @param newSeatHeight The object's seat height
+     */
     public void setSeatHeight(int newSeatHeight) {
         if (newSeatHeight < 1) {
             seatHeight = 1;
@@ -31,10 +77,10 @@ public class MountainBikes extends Bicycles{
         }
     }
 
-    public int getSeatHeight() {
-        return seatHeight;
-    }
-
+    /**
+     * 
+     * The object's string representation
+     */
     @Override
     public void printDescription() {
         System.out.println("The speed is: " + getSpeed() + " km/h");
@@ -42,19 +88,4 @@ public class MountainBikes extends Bicycles{
         System.out.println("The seat height is: " + getSeatHeight());
     }
 
-    public MountainBikes() {
-        super();
-        seatHeight = 0;
-    }
-
-    public MountainBikes(int newSpeed, int newGear, int newSeatHeight) {
-        super(newSpeed, newGear);
-        seatHeight = newSeatHeight;
-    }
 }
-
-
-
-
-
-

@@ -21,6 +21,11 @@ package bicycles;
  * @author tzikas97
  */
 public class TestBicycles {
+
+    /**
+     *
+     * @param args Input arguments
+     */
     public static void main(String[] args) {
         
         Bicycles b1 = new Bicycles(20, 3);
@@ -33,7 +38,3 @@ public class TestBicycles {
         
     }
 }
-
-
-
-

@@ -24,6 +24,39 @@ public class Bicycles {
     private int speed;
     private int gear;
 
+    /**
+     * 
+     * Constructor w/o arguments
+     */
+    public Bicycles() {
+        speed = 0;
+        gear = 1;
+    }
+    
+    /**
+     *
+     * Constructor w/ arguments
+     * 
+     * @param newSpeed The object's speed
+     * @param newGear The object's gear
+     */
+    public Bicycles(int newSpeed, int newGear) {
+        speed = newSpeed;
+        gear = newGear;
+    }
+    
+    /**
+     *
+     * @return The object's speed
+     */
+    public int getSpeed() {
+        return speed;
+    }
+
+    /**
+     *
+     * @param newSpeed The object's speed
+     */
     public void setSpeed(int newSpeed) {
         if (newSpeed < 0) {
             speed = 0;
@@ -32,6 +65,18 @@ public class Bicycles {
         }
     }
 
+    /**
+     *
+     * @return The object's gear
+     */
+    public int getGear() {
+        return gear;
+    }
+
+    /**
+     *
+     * @param newGear The object's gear
+     */
     public void setGear(int newGear) {
         if (newGear < 1) {
             gear = 1;
@@ -40,29 +85,12 @@ public class Bicycles {
         }
     }
 
-    public int getSpeed() {
-        return speed;
-    }
-
-    public int getGear() {
-        return gear;
-    }
-
+    /**
+     *
+     * The object's string representation
+     */
     public void printDescription() {
         System.out.println("The speed is: " + getSpeed() + " km/h");
         System.out.println("The gear is: " + getGear());
     }
-
-    public Bicycles() {
-        speed = 0;
-        gear = 1;
-    }
-    
-    public Bicycles(int newSpeed, int newGear) {
-        speed = newSpeed;
-        gear = newGear;
-    }
 }
-
-
-
