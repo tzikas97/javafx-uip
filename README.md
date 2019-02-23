@@ -8,16 +8,16 @@
 
 ## 🤔 Navigation
 
-> ***Input** folder -> Assignment input*
+> ***Input** folder -> Assignment's input*
 
-> ***Output** folder -> Assignment netbeans project*
+> ***Output** folder -> Assignment's NetBeans project*
 
 | Week | Optional assignment | Required assignment |
 | :---: | :---: | :---: |
-| 01 | [week_01/assignment_optional](week_01/assignment_optional) ✅ | [week_01/assignment_required](week_01/assignment_required) 🚧 |
+| 01 | [week_01/assignment_optional](week_01/assignment_optional) ✅ | [week_01/assignment_required](week_01/assignment_required) ✅ |
 
 
 #### *Assignment status*
->Complete -> ✅
+> Complete -> ✅
 
->WIP -> 🚧
+> WIP -> 🚧
