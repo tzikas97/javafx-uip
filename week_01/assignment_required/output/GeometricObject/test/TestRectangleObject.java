@@ -15,21 +15,32 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 import geometricobject.Rectangle;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author tzikas97
  */
 public class TestRectangleObject {
+
     /**
      *
      * @param args Input arguments
      */
-    public static void main(String[] args){
-        Rectangle obj1 = new Rectangle(5.5, 12);
-        
-        System.out.println("Color: " + obj1.getColor());
-        System.out.println("Area: " + obj1.getArea());
-        System.out.println("Perimeter: " + obj1.getPerimeter());              
+    public static void main(String[] args) {
+
+        List<Rectangle> objects = new ArrayList<>();
+
+        objects.add(new Rectangle());
+        objects.add(new Rectangle(6.3, 5.9));
+        objects.add(new Rectangle(8, 20, "green", true));
+
+        for (int i = 0; i < objects.size(); i++) {
+            System.out.println("\nObj " + (i + 1) + "\n----------");
+            System.out.println(objects.get(i).toString());
+            System.out.println("area: " + objects.get(i).getArea());
+            System.out.println("perimeter: " + objects.get(i).getPerimeter());
+        }
     }
 }

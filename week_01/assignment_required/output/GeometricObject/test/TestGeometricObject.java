@@ -15,22 +15,49 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 import geometricobject.GeometricObject;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author tzikas97
  */
-public class TestGeometricObject {
+public class TestGeometricObject extends GeometricObject {
 
+    /**
+     *
+     * Class GeometricObject is abstract & cannot be instantiated.
+     * TestGeometricObject inherits the class GeometricObject, in order to be
+     * able to test its methods.
+     */
     /**
      *
      * @param args Input arguments
      */
-    public static void main(String[] args)
-    {
-        GeometricObject obj1 = new GeometricObject();
-        GeometricObject obj2 = new GeometricObject("blue", true);
-        System.out.println("Object 1: " + obj1.toString());
-        System.out.println("Object 2: " + obj2.toString());
+    public static void main(String[] args) {
+
+        List<TestGeometricObject> objects = new ArrayList<>();
+
+        objects.add(new TestGeometricObject());
+
+        for (int i = 0; i < objects.size(); i++) {
+            System.out.println("\nObj " + (i + 1) + "\n----------");
+            System.out.println(objects.get(i).toString());
+        }
+    }
+
+    @Override
+    public double getArea() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public double getPerimeter() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void printObject() {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }

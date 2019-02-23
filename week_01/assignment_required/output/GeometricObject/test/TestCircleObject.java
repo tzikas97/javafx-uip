@@ -15,6 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 import geometricobject.Circle;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -26,12 +28,20 @@ public class TestCircleObject {
      *
      * @param args Input arguments
      */
-    public static void main(String[] args){
-        Circle obj1 = new Circle(2.2);
-        
-        System.out.println("Color: " + obj1.getColor());
-        System.out.println("Area: " + obj1.getArea());
-        System.out.println("Perimeter: " + obj1.getPerimeter());
-        System.out.println("Diameter: " + obj1.getDiameter());                
-    }   
+    public static void main(String[] args) {
+
+        List<Circle> objects = new ArrayList<>();
+
+        objects.add(new Circle());
+        objects.add(new Circle(2.2));
+        objects.add(new Circle(5, "red", true));
+
+        for (int i = 0; i < objects.size(); i++) {
+            System.out.println("\nObj " + (i + 1) + "\n----------");
+            System.out.println(objects.get(i).toString());
+            System.out.println("area: " + objects.get(i).getArea());
+            System.out.println("perimeter: " + objects.get(i).getPerimeter());
+            System.out.println("diameter: " + objects.get(i).getDiameter());
+        }
+    }
 }

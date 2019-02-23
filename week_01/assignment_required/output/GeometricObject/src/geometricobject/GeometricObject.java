@@ -22,7 +22,8 @@ import java.util.Date;
  *
  * @author tzikas97
  */
-public class GeometricObject {
+public abstract class GeometricObject {
+
     private String color = "white";
     private boolean filled;
     private Date dateCreated;
@@ -32,61 +33,38 @@ public class GeometricObject {
      * Κατασκευή προεπιλεγμένου γεωμετρικού αντικειμένου. Η ημερομηνία
      * λαμβάνεται από το σύστημα
      */
-    public GeometricObject(){
+    public GeometricObject() {
         dateCreated = new Date();
     }
-
-    
 
     /**
      *
      * Κατασκευάζει ένα προεπιλεγμένο γεωμετρικό αντικείμενο με καθορισμένο
      * χρώμα και τιμή γεμίσματος. Η ημερομηνία λαμβάνεται από το σύστημα
-     * 
+     *
      * @param color The object's color
      * @param filled Whether the object is filled
      */
-    public GeometricObject(String color, boolean filled){
-        this.color = color; 
+    public GeometricObject(String color, boolean filled) {
+        this.color = color;
         this.filled = filled;
         this.dateCreated = new Date();
     }
 
     /**
-     * 
+     *
      * Επιστρέφει χρώμα
-     * 
+     *
      * @return The object's color
      */
     public String getColor() {
-            return color;
-    }
-
-    /**
-     *
-     * Επιστρέφει την τιμή γεμίσματος filled. Επειδή η filled είναι δυαδική,
-     * η μέθοδος λήψης ονομάζεται isFilled
-     * 
-     * @return Whether the object is filled
-     */
-    public boolean isFilled() {
-        return filled;
-    }
-
-    /**
-     *
-     * Επιστρέφει την ημέρομηνία δημιουργίας του αντικειμένου
-     * 
-     * @return The object's creation date
-     */
-    public Date getDateCreated() {
-        return dateCreated;
+        return color;
     }
 
     /**
      *
      * Θέτει νέα τιμή στην color
-     * 
+     *
      * @param color The object's color
      */
     public void setColor(String color) {
@@ -95,26 +73,65 @@ public class GeometricObject {
 
     /**
      *
+     * Επιστρέφει την τιμή γεμίσματος filled. Επειδή η filled είναι δυαδική, η
+     * μέθοδος λήψης ονομάζεται isFilled
+     *
+     * @return Whether the object is filled
+     */
+    public boolean isFilled() {
+        return filled;
+    }
+
+    /**
+     *
      * Θέτει νέα τιμή στη filled
-     * 
+     *
      * @param filled Whether the object is filled
      */
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
-    
+
     /**
-     * 
+     *
+     * Επιστρέφει την ημερομηνία δημιουργίας του αντικειμένου
+     *
+     * @return The object's creation date
+     */
+    public Date getDateCreated() {
+        return dateCreated;
+    }
+
+    /**
+     *
      * Επιστρέφει μια αναπαράσταση του αντικειμένου σε μορφή αλφαριθμητικού
-     * 
+     *
      * @return The object's string representation
      */
-    public String toString(){
+    public String toString() {
         return "created on "
                 + dateCreated
                 + "\ncolor: "
                 + color
                 + "\nfilled: "
-                + filled;                
+                + filled;
     }
+
+    /**
+     *
+     * Get the object's area
+     */
+    public abstract double getArea();
+
+    /**
+     *
+     * Get the object's perimeter
+     */
+    public abstract double getPerimeter();
+
+    /**
+     *
+     * Print the object
+     */
+    public abstract void printObject();
 }

@@ -20,12 +20,13 @@ package geometricobject;
  *
  * @author tzikas97
  */
-public class Rectangle extends GeometricObject{
+public class Rectangle extends GeometricObject {
+
     private double width;
     private double height;
 
     /**
-     * 
+     *
      * Constructor w/o arguments
      */
     public Rectangle() {
@@ -37,7 +38,7 @@ public class Rectangle extends GeometricObject{
     /**
      *
      * Constructor w/ arguments
-     * 
+     *
      * @param width The object's width
      * @param height The object's height
      */
@@ -46,11 +47,11 @@ public class Rectangle extends GeometricObject{
         this.width = width;
         this.height = height;
     }
-    
+
     /**
      *
      * Constructor w/ arguments
-     * 
+     *
      * @param width The object's width
      * @param height The object's height
      * @param color The object's color
@@ -77,7 +78,7 @@ public class Rectangle extends GeometricObject{
     public void setWidth(double width) {
         this.width = width;
     }
-    
+
     /**
      *
      * @return The object's height
@@ -93,34 +94,42 @@ public class Rectangle extends GeometricObject{
     public void setHeight(double height) {
         this.height = height;
     }
-    
+
     /**
      *
      * @return The object's area
      */
-    public double getArea(){
+    public double getArea() {
         return width * height;
     }
-     
+
     /**
      *
      * @return The object's perimeter
      */
-    public double getPerimeter(){
+    public double getPerimeter() {
         return 2 * width + 2 * height;
     }
-    
+
     /**
-     * 
+     *
      * @return The object's string representation
      */
     @Override
-    public String toString(){
+    public String toString() {
         return "Rectangle "
                 + super.toString()
                 + "\nwidth: "
                 + width
                 + "\nheight: "
                 + height;
+    }
+
+    /**
+     *
+     * Print the object
+     */
+    public void printObject() {
+        System.out.println(toString());
     }
 }
