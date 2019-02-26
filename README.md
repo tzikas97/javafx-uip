@@ -28,6 +28,8 @@
 
 <br>
 
+## 📝 Notes
+
 > | Folder | Contents |
 > | :---: | :---: |
 > | Input | Assignment's input |
