@@ -25,7 +25,7 @@ public class MountainBikes extends Bicycles {
     private int seatHeight;
 
     /**
-     * 
+     *
      * Constructor w/o arguments
      */
     public MountainBikes() {
@@ -78,13 +78,12 @@ public class MountainBikes extends Bicycles {
     }
 
     /**
-     * 
+     *
      * The object's string representation
      */
     @Override
     public void printDescription() {
-        System.out.println("The speed is: " + getSpeed() + " km/h");
-        System.out.println("The gear is: " + getGear());
+        super.printDescription();
         System.out.println("The seat height is: " + getSeatHeight());
     }
 
