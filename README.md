@@ -10,6 +10,16 @@
 
 <br>
 
+## 🔨 Tools
+
+### *Build passing with:*
+
+#### [Oracle JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+
+#### [Apache NetBeans 10](https://netbeans.apache.org/)
+
+<br>
+
 ## 🤔 Navigation
 
 | Week | Optional assignment | Required assignment |
