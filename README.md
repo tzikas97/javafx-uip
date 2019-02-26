@@ -44,7 +44,7 @@
 
 <br>
 
-> **Project .ZIPs are available [HERE](releases)**
+> **Project .ZIPs are available [HERE](../../releases)**
 
 <br>
 
