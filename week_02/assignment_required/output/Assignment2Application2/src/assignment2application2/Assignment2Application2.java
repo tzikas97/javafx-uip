@@ -58,7 +58,7 @@ public class Assignment2Application2 extends Application {
         pane.setHgap(10);
         pane.setAlignment(Pos.CENTER);
 
-        // Add images to grid
+        // Add images to pane
         pane.getChildren().addAll(imagesList);
 
         Scene scene = new Scene(pane, 400, 200);
