@@ -34,7 +34,7 @@ Follow this guide on how to use Java 11 and JavaFX 11 from NetBeans:
 | Week | Optional assignment | Required assignment |
 | :---: | :---: | :---: |
 | 01 | [week_01/assignment_optional](week_01/assignment_optional) ✅ | [week_01/assignment_required](week_01/assignment_required) ✅ |
-| 02 | [week_02/assignment_optional](week_02/assignment_optional) ✅ | week_02/assignment_required 🚧 |
+| 02 | [week_02/assignment_optional](week_02/assignment_optional) ✅ | [week_02/assignment_required](week_02/assignment_required) ✅ |
 
 <br>
 
