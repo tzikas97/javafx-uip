@@ -55,7 +55,7 @@ public class Assignment2Application1 extends Application {
         pane.setHgap(10);
         pane.setAlignment(Pos.CENTER);
 
-        // Add images to grid
+        // Add images to pane
         pane.add(imagesList.get(0), 0, 0);
         pane.add(imagesList.get(1), 1, 0);
         pane.add(imagesList.get(2), 0, 1);
