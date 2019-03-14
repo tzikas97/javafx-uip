@@ -24,8 +24,16 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 
+/**
+ *
+ * @author tzikas97
+ */
 public class ShowFlowPane extends Application {
 
+    /**
+     *
+     * @param myStage The application's first stage
+     */
     @Override
     public void start(Stage myStage) {
         //Δημιουργία FlowPane
@@ -62,6 +70,10 @@ public class ShowFlowPane extends Application {
         myStage.show();
     }
 
+    /**
+     *
+     * @param args The command line arguments
+     */
     public static void main(String[] args) {
         Application.launch(args);
     }

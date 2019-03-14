@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright 2019 George Tzikas <tzikas97@gmail.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -56,7 +56,7 @@ public class JavaFxBasics extends Application {
 
     /**
      *
-     * @param args the command line arguments
+     * @param args The command line arguments
      */
     public static void main(String[] args) {
         Application.launch(args);

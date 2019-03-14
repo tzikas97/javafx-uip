@@ -102,7 +102,7 @@ public class ShowLoginGridPane extends Application {
     }
 
     /**
-     * @param args Τhe command line arguments
+     * @param args The command line arguments
      */
     public static void main(String[] args) {
         Application.launch(args);

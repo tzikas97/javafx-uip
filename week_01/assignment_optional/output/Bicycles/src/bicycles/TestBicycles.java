@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright 2019 George Tzikas <tzikas97@gmail.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,17 +23,17 @@ public class TestBicycles {
 
     /**
      *
-     * @param args Input arguments
+     * @param args The command line arguments
      */
     public static void main(String[] args) {
-        
+
         Bicycles b1 = new Bicycles(20, 3);
         b1.printDescription();
-        
+
         System.out.println("----------");
-        
+
         MountainBikes b2 = new MountainBikes(40, 5, 2);
         b2.printDescription();
-        
+
     }
 }
