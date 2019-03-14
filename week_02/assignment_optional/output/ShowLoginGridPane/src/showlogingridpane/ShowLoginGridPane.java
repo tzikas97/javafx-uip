@@ -25,8 +25,16 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+/**
+ *
+ * @author tzikas97
+ */
 public class ShowLoginGridPane extends Application {
 
+    /**
+     *
+     * @param myStage The application's first stage
+     */
     @Override
     public void start(Stage myStage) {
         GridPane myGrid = new GridPane();
@@ -94,7 +102,7 @@ public class ShowLoginGridPane extends Application {
     }
 
     /**
-     * @param args the command line arguments
+     * @param args Τhe command line arguments
      */
     public static void main(String[] args) {
         Application.launch(args);
