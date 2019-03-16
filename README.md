@@ -1,10 +1,13 @@
 # javafx-uip
 
+[![Travis (.org)](https://img.shields.io/travis/tzikas97/javafx-uip.svg?label=Travis%20CI%20Build&style=flat-square)](https://travis-ci.org/tzikas97/javafx-uip)
+[![Codacy grade](https://img.shields.io/codacy/grade/3104ff50a1df4a538fdb27f22c328acf.svg?label=Codacy%20Code%20Quality&style=flat-square)](https://www.codacy.com/app/tzikas97/javafx-uip?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tzikas97/javafx-uip&amp;utm_campaign=Badge_Grade)
+
 <br>
 
 ## ❓ About
 
-#### Προγραμματισμός Διεπαφής Χρήστη σε JavaFX
+### Προγραμματισμός Διεπαφής Χρήστη σε JavaFX
 
 > *TEI EMT 609ΕΔΜΓ Assignments*
 
@@ -12,7 +15,7 @@
 
 ## 🔨 Tools
 
-#### *Build passing with:*
+### *Build passing with*
 
 #### [Apache NetBeans 10](https://netbeans.apache.org/)
 
@@ -20,7 +23,7 @@
 
 #### [JavaFX 11](https://openjfx.io/index.html)
 
-#### ⚠️ *Important Note:* ⚠️
+### ⚠️ *Important Note* ⚠️
 Starting with JDK 11, JavaFX has been decoupled from the JDK.
 More: [https://blogs.oracle.com/java-platform-group/the-future-of-javafx-and-other-java-client-roadmap-updates](https://blogs.oracle.com/java-platform-group/the-future-of-javafx-and-other-java-client-roadmap-updates)
 
