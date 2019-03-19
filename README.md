@@ -19,11 +19,21 @@ Licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)*
 
 ## 🔨 Tools
 
-### *Build passing with*
+### *Manually built on Windows 10 with*
 
 #### [Apache NetBeans 10](https://netbeans.apache.org/)
 
 #### [Oracle JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+
+#### [JavaFX 11](https://openjfx.io/index.html)
+
+### *Automatically built on Ubuntu 14.04 with*
+
+#### [Travis CI](https://travis-ci.org/)
+
+#### [Oracle JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+
+#### [OpenJDK 11](https://openjdk.java.net/)
 
 #### [JavaFX 11](https://openjfx.io/index.html)
 
@@ -42,6 +52,7 @@ Follow this guide on how to use Java 11 and JavaFX 11 from NetBeans:
 | :---: | :---: | :---: |
 | 01 | [week_01/assignment_optional](week_01/assignment_optional) ✅ | [week_01/assignment_required](week_01/assignment_required) ✅ |
 | 02 | [week_02/assignment_optional](week_02/assignment_optional) ✅ | [week_02/assignment_required](week_02/assignment_required) ✅ |
+| 03 | [week_03/assignment_optional](week_03/assignment_optional) ✅ | [week_03/assignment_required](week_03/assignment_required) 🚧 |
 
 <br>
 
