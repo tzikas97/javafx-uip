@@ -41,7 +41,7 @@ public class Assignment2Application2 extends Application {
 
         firstStage.setTitle("Assignment2Application2");
 
-        // Load images in a list
+        // Store images in a list
         List<ImageView> imagesList = new ArrayList<>();
 
         Random rand = new Random();

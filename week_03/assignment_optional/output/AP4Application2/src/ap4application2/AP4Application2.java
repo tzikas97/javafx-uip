@@ -44,7 +44,7 @@ public class AP4Application2 extends Application {
 
         firstStage.setTitle("AP4Application2");
 
-        // Load text in a list
+        // Store text in a list
         List<Text> textList = new ArrayList<>();
 
         textList.add(new Text("George"));

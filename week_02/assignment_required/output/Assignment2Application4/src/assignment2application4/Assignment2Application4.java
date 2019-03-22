@@ -43,10 +43,10 @@ public class Assignment2Application4 extends Application {
 
         firstStage.setTitle("Assignment2Application4");
 
-        // Load labels in a list
+        // Store labels in a list
         List<Label> labelsList = new ArrayList<>();
 
-        // Load textfields in a list
+        // Store textfields in a list
         List<TextField> textFieldsList = new ArrayList<>();
 
         labelsList.add(new Label("First Name:"));

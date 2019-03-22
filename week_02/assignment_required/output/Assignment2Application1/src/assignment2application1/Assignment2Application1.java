@@ -40,7 +40,7 @@ public class Assignment2Application1 extends Application {
 
         firstStage.setTitle("Assignment2Application1");
 
-        // Load images in a list
+        // Store images in a list
         List<ImageView> imagesList = new ArrayList<>();
 
         for (int i = 0; i < 4; i++) {
