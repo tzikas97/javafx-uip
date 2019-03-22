@@ -56,10 +56,12 @@ public class Assignment3Application2 extends Application {
         colorsList.add(Color.BLUE);
         colorsList.add(Color.FUCHSIA);
 
+        // Add DrawText instances with color and rotation to the textList
         for (int i = 0; i < 5; i++) {
             textList.add(new DrawText("java", colorsList.get(i), 90));
         }
 
+        // Apply styling to the DrawText instances
         for (int i = 0; i < 5; i++) {
             textList.get(i).setFont(Font.font("Times Roman", FontWeight.BOLD, FontPosture.ITALIC, 30));
         }
