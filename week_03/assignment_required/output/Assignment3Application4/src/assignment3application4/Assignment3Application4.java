@@ -53,7 +53,7 @@ public class Assignment3Application4 extends Application {
             // Set random stroke color
             // Set a stroke width
             // Set rotation angle incremented by 45deg
-            rect.setFill(new Color(1, 1, 1, 1));
+            rect.setFill(Color.WHITE);
             rect.setStroke(new Color(Math.random(), Math.random(), Math.random(), 1));
             rect.setStrokeWidth(2);
             rotationAngle += 45;
