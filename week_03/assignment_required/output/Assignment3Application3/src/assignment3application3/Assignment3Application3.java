@@ -49,7 +49,7 @@ public class Assignment3Application3 extends Application {
     @Override
     public void start(Stage firstStage) {
 
-        firstStage.setTitle("Assignment3Application2");
+        firstStage.setTitle("Assignment3Application3");
 
         // Store strings in a list
         List<String> stringsList = new ArrayList<>();
