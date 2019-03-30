@@ -45,7 +45,7 @@ public class Assignment3Application5 extends Application {
         // Apply styling to the Rectangle instance
         // Set white fill color
         // Set green stroke color
-        // Set a stroke width
+        // Set stroke width
         rect.setFill(Color.WHITE);
         rect.setStroke(Color.GREEN);
         rect.setStrokeWidth(5);

@@ -30,7 +30,7 @@ import javafx.stage.Stage;
 public class Assignment3Application7 extends Application {
 
     // Initialize color flag
-    static int colorFlag = 1;
+    private static int colorFlag = 1;
 
     /**
      *

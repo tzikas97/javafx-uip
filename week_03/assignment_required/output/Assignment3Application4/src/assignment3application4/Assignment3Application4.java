@@ -30,7 +30,7 @@ import javafx.stage.Stage;
 public class Assignment3Application4 extends Application {
 
     // Initialize rotation angle
-    static double rotationAngle = -45;
+    private static double rotationAngle = -45;
 
     /**
      *
@@ -51,7 +51,7 @@ public class Assignment3Application4 extends Application {
             // Apply styling to the Rectangle instance
             // Set white fill color
             // Set random stroke color
-            // Set a stroke width
+            // Set stroke width
             // Set rotation angle incremented by 45deg
             rect.setFill(Color.WHITE);
             rect.setStroke(new Color(Math.random(), Math.random(), Math.random(), 1));
