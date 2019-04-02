@@ -53,6 +53,7 @@ Follow this guide on how to use Java 11 and JavaFX 11 from NetBeans:
 | 01 | [week_01/assignment_optional](week_01/assignment_optional) ✅ | [week_01/assignment_required](week_01/assignment_required) ✅ |
 | 02 | [week_02/assignment_optional](week_02/assignment_optional) ✅ | [week_02/assignment_required](week_02/assignment_required) ✅ |
 | 03 | [week_03/assignment_optional](week_03/assignment_optional) ✅ | [week_03/assignment_required](week_03/assignment_required) ✅ |
+| 04 | [week_04/assignment_optional](week_04/assignment_optional) ✅ | [week_04/assignment_required](week_04/assignment_required) 🚧 |
 
 <br>
 
