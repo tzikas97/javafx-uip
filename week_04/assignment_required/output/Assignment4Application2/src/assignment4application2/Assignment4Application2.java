@@ -45,9 +45,6 @@ public class Assignment4Application2 extends Application {
         firstStage.setTitle("Assignment4Application2");
 
         // Apply styling to the Rectangle instance
-        // Set white fill color
-        // Set blue stroke color
-        // Set stroke width
         rect.setFill(Color.WHITE);
         rect.setStroke(Color.BLUE);
         rect.setStrokeWidth(2);
@@ -62,7 +59,7 @@ public class Assignment4Application2 extends Application {
 
         BorderPane bPane = new BorderPane();
 
-        // Append the fPane, hBox instances to the bPane
+        // Append the rect, hBox instances to the bPane
         bPane.setCenter(rect);
         bPane.setBottom(hBox);
 
