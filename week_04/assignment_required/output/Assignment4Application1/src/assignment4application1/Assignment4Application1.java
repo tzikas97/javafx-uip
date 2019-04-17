@@ -46,6 +46,7 @@ public class Assignment4Application1 extends Application {
 
         firstStage.setTitle("Assignment4Application1");
 
+        // Create a Button instance
         Button button = new Button("Refresh");
 
         HBox hBox = new HBox();
@@ -77,8 +78,13 @@ public class Assignment4Application1 extends Application {
 
         firstStage.setScene(scene);
         firstStage.show();
+
     }
 
+    /**
+     *
+     * Method that randomizes the cards
+     */
     private void randomizeCards() {
 
         // Store images in a list
@@ -97,6 +103,7 @@ public class Assignment4Application1 extends Application {
 
         // Append the ImageView instances to the fPane
         fPane.getChildren().addAll(imagesList);
+
     }
 
     /**
@@ -104,7 +111,9 @@ public class Assignment4Application1 extends Application {
      * @param args The command line arguments
      */
     public static void main(String[] args) {
+
         Application.launch(args);
+
     }
 
 }
